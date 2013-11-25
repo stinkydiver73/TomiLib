@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sat 23 Nov 2013 21:50:20 CET
+PCBNEW-LibModule-V1  Mon 25 Nov 2013 13:43:53 CET
 # encoding utf-8
 Units mm
 $INDEX
@@ -8,7 +8,7 @@ sc23-kingbright
 tomimod1
 $EndINDEX
 $MODULE header2x7
-Po 0 0 0 15 5290D255 00000000 ~~
+Po 0 0 0 15 529343D1 00000000 ~~
 Li header2x7
 Sc 0
 AR 
@@ -20,99 +20,99 @@ DS 16.51 -1.27 16.51 3.81 0.15 21
 DS 16.51 3.81 -1.27 3.81 0.15 21
 DS -1.27 3.81 -1.27 -1.27 0.15 21
 $PAD
-Sh "1" R 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "1" R 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 2.54
 $EndPAD
 $PAD
-Sh "3" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "3" O 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.54 2.54
 $EndPAD
 $PAD
-Sh "5" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "5" O 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 5.08 2.54
 $EndPAD
 $PAD
-Sh "7" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "7" O 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 7.62 2.54
 $EndPAD
 $PAD
-Sh "9" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "9" O 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 10.16 2.54
 $EndPAD
 $PAD
-Sh "11" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "11" O 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 2.54
 $EndPAD
 $PAD
-Sh "13" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "13" O 1.778 2.54 0 0 0
+Dr 0.889 0 0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 15.24 2.54
 $EndPAD
 $PAD
-Sh "14" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "14" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 15.24 0
 $EndPAD
 $PAD
-Sh "12" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "12" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 0
 $EndPAD
 $PAD
-Sh "10" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "10" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 10.16 0
 $EndPAD
 $PAD
-Sh "8" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "8" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 7.62 0
 $EndPAD
 $PAD
-Sh "6" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "6" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 5.08 0
 $EndPAD
 $PAD
-Sh "4" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "4" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.54 0
 $EndPAD
 $PAD
-Sh "2" O 1 1.778 0 0 0
-Dr 0.889 0 0
+Sh "2" O 1.778 2.54 0 0 0
+Dr 0.889 0 -0.508
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
@@ -149,7 +149,7 @@ Po 2.286 2.032
 $EndPAD
 $EndMODULE masikmodule
 $MODULE sc23-kingbright
-Po 0 0 0 15 529114AD 00000000 F~
+Po 0 0 0 15 529345F1 00000000 F~
 Li sc23-kingbright
 Sc 0
 AR /5290DD8C
@@ -161,71 +161,71 @@ DS -18.923 65.024 -18.923 -4.953 0.15 21
 DS -18.923 65.024 29.083 65.024 0.15 21
 DS -18.923 -4.953 29.083 -4.953 0.15 21
 $PAD
-Sh "10" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "10" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 8 "/g"
 Po 0 0
 $EndPAD
 $PAD
-Sh "9" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "9" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 7 "/f"
 Po 2.54 0
 $EndPAD
 $PAD
-Sh "8" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "8" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 3 "/bank2"
 Po 5.08 0
 $EndPAD
 $PAD
-Sh "7" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "7" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 1 "/a"
 Po 7.62 0
 $EndPAD
 $PAD
-Sh "6" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "6" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 2 "/b"
 Po 10.16 0
 $EndPAD
 $PAD
-Sh "1" R 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "1" R 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 6 "/e"
 Po 0 60.198
 $EndPAD
 $PAD
-Sh "2" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "2" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 5 "/d"
 Po 2.54 60.198
 $EndPAD
 $PAD
-Sh "3" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "3" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 3 "/bank2"
 Po 5.08 60.198
 $EndPAD
 $PAD
-Sh "4" O 1 2.032 0 0 0
+Sh "4" O 1.778 2.54 0 0 0
 Dr 0.6 0 0
 At STD N 00E0FFFF
 Ne 4 "/c"
 Po 7.62 60.198
 $EndPAD
 $PAD
-Sh "5" O 1 2.032 0 0 0
-Dr 0.6 0 0
+Sh "5" O 1.778 2.54 0 0 0
+Dr 0.889 0 0
 At STD N 00E0FFFF
 Ne 9 "/p"
 Po 10.16 60.198
