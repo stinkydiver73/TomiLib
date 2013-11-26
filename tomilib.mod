@@ -1,11 +1,9 @@
-PCBNEW-LibModule-V1  Mon 25 Nov 2013 13:43:53 CET
+PCBNEW-LibModule-V1  Tue 26 Nov 2013 20:30:11 CET
 # encoding utf-8
 Units mm
 $INDEX
 header2x7
-masikmodule
 sc23-kingbright
-tomimod1
 $EndINDEX
 $MODULE header2x7
 Po 0 0 0 15 529343D1 00000000 ~~
@@ -118,36 +116,6 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE header2x7
-$MODULE masikmodule
-Po 0 0 0 15 52908CBC 00000000 ~~
-Li masikmodule
-Sc 0
-AR 
-Op 0 0 0
-T0 0 0 1 1 0 0.15 N V 21 N "masikmodule"
-T1 0.254 -1.27 1 1 0 0.15 N V 21 N "VAL**"
-$PAD
-Sh "4" R 1.016 2.032 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -3.556 2.286
-$EndPAD
-$PAD
-Sh "5" R 1.016 2.032 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1.016 2.032
-$EndPAD
-$PAD
-Sh "6" R 1.016 2.032 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2.286 2.032
-$EndPAD
-$EndMODULE masikmodule
 $MODULE sc23-kingbright
 Po 0 0 0 15 529345F1 00000000 F~
 Li sc23-kingbright
@@ -231,38 +199,4 @@ Ne 9 "/p"
 Po 10.16 60.198
 $EndPAD
 $EndMODULE sc23-kingbright
-$MODULE tomimod1
-Po 0 0 0 15 52908A0D 00000000 ~~
-Li tomimod1
-Sc 0
-AR 
-Op 0 0 0
-T0 2.286 0.762 1 1 0 0.15 N V 21 N "tomimod1"
-T1 2.54 6.096 1 1 0 0.15 N I 21 N "SMD"
-DS -1.524 1.524 6.35 1.524 0.15 21
-DS 6.35 1.524 6.35 7.874 0.15 21
-DS 6.35 7.874 -1.524 7.874 0.15 21
-DS -1.524 7.874 -1.524 1.524 0.15 21
-$PAD
-Sh "1" R 1.016 2.032 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 3.556
-$EndPAD
-$PAD
-Sh "2" R 1.016 2.032 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 2.54 3.556
-$EndPAD
-$PAD
-Sh "3" R 1.016 2.032 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 5.08 3.556
-$EndPAD
-$EndMODULE tomimod1
 $EndLIBRARY
